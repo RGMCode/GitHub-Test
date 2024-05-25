@@ -13,6 +13,11 @@ struct ContentView: View {
         
         VStack {
             
+            Text("Hello Apple")
+        }
+        
+        VStack {
+            
             Image(systemName: "apple.logo")
                 .font(.system(size: 150))
                 .foregroundColor(.green)
