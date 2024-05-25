@@ -12,14 +12,13 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, darkness my old friend!")
             
             Image(systemName: "apple.logo")
                 .font(.system(size: 150))
-                .foregroundColor(.gray)
+                .foregroundColor(.green)
+            
+            Text("Hello, darkness my old friend!")
+            
         }
         .padding()
         
